@@ -11,7 +11,7 @@
  Target Server Version : 50728 (5.7.28)
  File Encoding         : 65001
 
- Date: 21/05/2023 11:42:27
+ Date: 21/05/2023 11:45:30
 */
 
 SET NAMES utf8mb4;
@@ -389,7 +389,7 @@ CREATE TABLE `wa_admins`  (
 -- ----------------------------
 -- Records of wa_admins
 -- ----------------------------
-INSERT INTO `wa_admins` VALUES (1, 'admin', '超级管理员', '$2y$10$bjpPtOAugAC/UpIRaoxRW.t6tYM65ig5fuAh/kfSuEPsfdbXAO9Ra', '/app/admin/avatar.png', NULL, NULL, '2023-03-18 09:43:46', '2023-05-20 22:41:51', '2023-05-20 22:41:22', NULL);
+INSERT INTO `wa_admins` VALUES (1, 'admin', '超级管理员', '$2y$10$qOJwurC3Fmo7W29SDKLimeHhgsYGXiF0fOD9FQMt20eGR7ba5ODYi', '/app/admin/avatar.png', NULL, NULL, '2023-03-18 09:43:46', '2023-05-21 11:44:49', '2023-05-20 22:41:22', NULL);
 INSERT INTO `wa_admins` VALUES (6, '11536946', '黎帅', '$2y$10$QKZk/X8rQL9ic57DPTkOBO7/v2LQByDK1w8tmaNJnN0dhhIGlkpeG', '/app/admin/avatar.png', NULL, NULL, '2023-05-16 14:47:40', '2023-05-16 14:47:40', NULL, NULL);
 INSERT INTO `wa_admins` VALUES (7, '90460066', '凌晶', '$2y$10$zmKIFLT/0c5HNtqogvFt3eTIxJpscACbvR523cbnyEu0IWJ7UP7Qm', '/app/admin/avatar.png', NULL, NULL, '2023-05-16 14:47:47', '2023-05-16 14:47:47', NULL, NULL);
 INSERT INTO `wa_admins` VALUES (8, '42365184', '秦冰冰', '$2y$10$uopaf2xDxMlhwU5JO0/yHedrtBG4faD.kxVBX5E28U.rjl1V4d54C', '/app/admin/avatar.png', NULL, NULL, '2023-05-16 14:47:48', '2023-05-16 14:47:48', NULL, NULL);
