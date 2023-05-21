@@ -76,8 +76,12 @@ class AccountController extends Crud
         if ($admin->status != 0) {
             return $this->json(1, '当前账户暂时无法登录');
         }
-        $admin->login_at = date('Y-m-d H:i:s');
-        $admin->save();
+        if (!env("APP_DEMO")){
+            // 演示模式下不更新登录时间
+            $admin->login_at = date('Y-m-d H:i:s');
+            $admin->save();
+        }
+
         $this->removeLoginLimit($username);
         $admin = $admin->toArray();
         $session = $request->session();
