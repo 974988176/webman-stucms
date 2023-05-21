@@ -11,7 +11,7 @@
  Target Server Version : 50728 (5.7.28)
  File Encoding         : 65001
 
- Date: 20/05/2023 22:42:26
+ Date: 21/05/2023 11:42:27
 */
 
 SET NAMES utf8mb4;
@@ -365,7 +365,6 @@ INSERT INTO `wa_admin_roles` VALUES (8, 6, 9);
 INSERT INTO `wa_admin_roles` VALUES (9, 6, 10);
 INSERT INTO `wa_admin_roles` VALUES (10, 6, 11);
 INSERT INTO `wa_admin_roles` VALUES (17, 6, 20);
-INSERT INTO `wa_admin_roles` VALUES (18, 7, 21);
 
 -- ----------------------------
 -- Table structure for wa_admins
@@ -398,7 +397,6 @@ INSERT INTO `wa_admins` VALUES (9, '97827816', '欧玉英', '$2y$10$bGpY2dtE81HD
 INSERT INTO `wa_admins` VALUES (10, '97452034', '窦成', '$2y$10$0edHyDkBCDr/ew4wAYPPmOj3qpasnM5vbjyXNf3af2lAxuV77M6au', '/app/admin/avatar.png', NULL, NULL, '2023-05-16 14:47:49', '2023-05-16 14:47:49', NULL, NULL);
 INSERT INTO `wa_admins` VALUES (11, '34185498', '赵娜', '$2y$10$KPEDebfjfnKTyNOcmaE3NO18dKcDa3SAAhcMPV3Tkpvcsh0334c2u', '/app/admin/avatar.png', NULL, NULL, '2023-05-16 14:47:50', '2023-05-16 14:47:50', NULL, NULL);
 INSERT INTO `wa_admins` VALUES (20, 'student', '学生', '$2y$10$2bU.TA9uZFg4rUUOynn/lOWLlBTfn52XNT.grlIBznW2CW25stkWm', '/app/admin/avatar.png', NULL, NULL, '2023-05-16 16:08:46', '2023-05-20 15:44:39', '2023-05-20 15:44:39', NULL);
-INSERT INTO `wa_admins` VALUES (21, 'admin888', 'admin888', '$2y$10$5vLKUYm.8vyq4WFc/FbrOOqylI8uUBJuCREBt3s07Gm3fS3jGGCDa', '/app/admin/avatar.png', 'admin888@qq.com', 'admin888', '2023-05-20 21:06:13', '2023-05-20 21:06:57', '2023-05-20 21:06:57', NULL);
 
 -- ----------------------------
 -- Table structure for wa_options
@@ -454,7 +452,6 @@ CREATE TABLE `wa_roles`  (
 -- ----------------------------
 INSERT INTO `wa_roles` VALUES (1, '超级管理员', '*', '2022-08-13 16:15:01', '2022-12-23 12:05:07', NULL);
 INSERT INTO `wa_roles` VALUES (6, '学生', '127,134,138,146,149,150,155,158,162,141,153', '2023-05-16 14:29:05', '2023-05-20 15:48:55', 1);
-INSERT INTO `wa_roles` VALUES (7, '演示管理员', '20,21,22,23,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,48,49,51,52,53,55,56,57,58,59,60,62,63,64,68,73,80,81,91,94,95,98,99,100,102,107,112,113,127,134,138,141,153,155,158,162,166,167,174,176,171,146,149,150,165,87', '2023-05-20 21:05:43', '2023-05-20 21:05:43', 1);
 
 -- ----------------------------
 -- Table structure for wa_rules
