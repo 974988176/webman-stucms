@@ -29,6 +29,7 @@ class Handler extends ExceptionHandler
         }
         $code = $exception->getCode();
         if ($code == 42000) {
+            // 采用的是数据库设计用户权限的方式
             $error = '演示模式，不允许修改数据库';
             $json = ['code' => $code, 'msg' => $error];
             if ($request->expectsJson()) {

@@ -80,7 +80,6 @@ http://layui.org.cn/docs/docs.html
 
 
 ### 演示站点
-http://webmanstucms.yushihua.vip
-
-- 管理员账号:admin888/admin888
+http://150.158.90.97:8787/
+- 管理员账号:admin/admin
 - 学生账号:student/123456

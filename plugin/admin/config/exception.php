@@ -15,5 +15,6 @@
 use plugin\admin\app\exception\Handler;
 
 return [
-    '' => Handler::class,
+    // '' => Handler::class,
+    '' => \app\exceptions\Handler::class,
 ];
